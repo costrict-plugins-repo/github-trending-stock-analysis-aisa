@@ -1,0 +1,38 @@
+{
+  "name": "stock-analysis-aisa",
+  "version": "1.0.0",
+  "description": "AI-powered stock & crypto analysis via AIsa API. 8-dimension scoring with BUY/HOLD/SELL signals, dividend analysis, portfolio management, watchlist alerts, Hot Scanner for trending assets, and Rumor Scanner for early signals.",
+  "author": {
+    "name": "Jordan",
+    "url": "https://github.com/0xjordansg-yolo"
+  },
+  "homepage": "https://aisa.one",
+  "repository": "https://github.com/0xjordansg-yolo/stock-analysis-aisa-claude",
+  "license": "MIT",
+  "keywords": [
+    "stocks",
+    "finance",
+    "crypto",
+    "portfolio",
+    "dividends",
+    "yahoo-finance",
+    "aisa",
+    "analysis",
+    "hot-scanner",
+    "rumor-scanner"
+  ],
+  "userConfig": {
+    "AISA_API_KEY": {
+      "description": "Your AIsa API key. Get one at https://aisa.one",
+      "sensitive": true
+    },
+    "AISA_BASE_URL": {
+      "description": "AIsa API base URL (default: https://api.aisa.one/v1)",
+      "sensitive": false
+    },
+    "AISA_MODEL": {
+      "description": "AI model to use for analysis (default: gpt-4o)",
+      "sensitive": false
+    }
+  }
+}
